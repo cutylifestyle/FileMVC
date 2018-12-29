@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">filemvc</string>
+    <string name="loading">正在加载</string>
+    <string name="load_error_please_retry">加载错误,请重试</string>
+    <string name="file_name">文件名称</string>
+    <string name="file_size">文件大小</string>
 </resources>
