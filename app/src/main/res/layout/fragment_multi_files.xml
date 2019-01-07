@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".multifiles.MultiFilesFragment">
+
+    <com.classic.common.MultipleStatusView
+        android:id="@+id/msv_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyView="@layout/layout_empty_view"
+        app:errorView="@layout/layout_error_view"
+        app:loadingView="@layout/layout_loading_view"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv_multi_files"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.classic.common.MultipleStatusView>
+
+</FrameLayout>
